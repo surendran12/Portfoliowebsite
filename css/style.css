@@ -1,0 +1,268 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    padding: 16px 0;
+}
+
+.nav-scrolled {
+    background-color: #000;
+    opacity: 0.8;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 16px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #d3bf0e;
+}
+
+.transparent-header {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+    height: auto;
+    position: fixed;
+}
+
+main {
+    padding: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.bg-image {
+    background-image: url(../images/bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    /* display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; */
+    display: flex;
+    align-items: center;
+    padding: 100px 0 100px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero-section-content {
+    color: #ffffff;
+    max-width: 50%;
+}
+
+.slider-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.vertical-center-align {
+    display: flex;
+    align-items: center;
+}
+
+.photo-gallery {
+    width: 33.3333%;
+}
+
+.grid-img1 {
+    width: 100%;
+    margin: 8px;
+    height: 380px;
+}
+.grid-img2 {
+    width: 100%;
+    margin: 8px;
+    height: 285px;
+}
+.grid-img3 {
+    width: 100%;
+    margin: 8px;
+    height: 380px;
+}
+
+.pad {
+    padding: 120px 0 40px;
+}
+.text-view {
+    padding: 16px 0 0;
+    font-size: 16px;
+}
+
+  .carousel .item img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  right: 12%;
+  left: 12%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+  max-width: 50%;
+  text-align: left;
+  font-size: 2rem;
+  top: 20%;
+}
+.carousel-control-next, .carousel-control-prev {
+    align-items: end;
+    padding-bottom: 100px;
+    width: 25%;
+}
+.carousel-indicators {
+    bottom: 5px;
+}
+.carousel-control-next1, .carousel-control-prev1 {
+    align-items: end;
+    padding-bottom: 0;
+    width: 5%;
+}
+.carousel-inner1 {
+    height: 55vh;
+}
+.carousel-control-prev-icon1 {
+    background: url(../images/left-arrow.png) no-repeat;
+    width: 48px;
+    height: 48px;
+    color: #000;
+    filter: grayscale(1) !important;
+}
+.carousel-control-next-icon1 {
+    background: url(../images/right-arrow.png) no-repeat;
+    width: 48px;
+    height: 48px;
+    color: #000;
+    filter: grayscale(1) !important;
+}
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.bg-view {
+    height: 40vh;
+    background-image: url(../images/bgview.jpg) !important;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #000000;
+}
+.view-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height:40vh;
+    line-height: 48px;
+    text-align: center;
+}
+.footer-img {
+    padding: 24px;
+}
+
+@media screen and (max-width : 768px) {
+    .hero-section-content {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+    nav ul {
+        display: none;
+    }
+    .photo-gallery {
+        width: 96%;
+    }
+    .mobileview {
+        width: 100%;
+    }
+    .view-content {
+        line-height: 28px;
+        font-size: 1rem;
+    }
+    .footer-img {
+        padding: 24px 0;
+    }
+    #testmonial {
+        padding: 0 16px;
+    }
+    .pad {
+        padding: 30px 0;
+    }
+    .transparent-header {
+        width: 100%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        bottom: 40px;
+    }
+    .carousel-control-next1, .carousel-control-prev1 {
+        bottom: 0;
+        width: 10%;
+    }
+    .w-100 {
+        height: 40vh;
+    }
+    .paragraph {
+        margin-bottom: 24px;
+    }
+    .carousel-caption {
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 15%;
+    }
+    .carousel-inner1 {
+        height: 48vh;
+    }
+  }
